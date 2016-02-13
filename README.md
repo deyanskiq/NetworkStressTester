@@ -10,8 +10,6 @@
          Any error (timeout, closing the connection from the server before
          being sent response) means a failed request. After receiving the
          response, the connection must be closed (unless already closed by the
-         server).
- 
-         The programs finds how many successful simultaneous requests can
+         server). The programs finds how many successful simultaneous requests can
          tolerate server without a single failure among them. Also the program
          finds what is the biggest response time in this case.
